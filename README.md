@@ -1,10 +1,6 @@
 # Financial-Report-Overview-Ferrari-NV
-Implied Discount Factors &amp; Dividend Term Structure from Ferrari (RACE) Option Prices.  Extracting the risk-free discount curve and the implied dividend structure of Ferrari N.V. (RACE) from listed option prices, using only no-arbitrage relationships.
-Overview
+Implied Discount Factors and Dividend Term Structure from Ferrari (RACE) Option Prices.  Extracting the risk-free discount curve and the implied dividend structure of Ferrari N.V. (RACE) from listed option prices, using only no-arbitrage relationships.
 
-# Implied Discount Factors & Dividend Term Structure from Ferrari (RACE) Option Prices
-
-Extracting the risk-free discount curve and the implied dividend structure of **Ferrari N.V. (RACE)** from listed option prices, using only no-arbitrage relationships.
 
 ## Overview
 
@@ -16,9 +12,9 @@ Market data as of **24 March 2026** (spot S₀ = 329.93). All option prices are 
 
 Using two strikes (K₁ = 300, K₂ = 360, expiry 15 May 2026):
 
-```
+
 D(0,T) = [C(K₁) − P(K₁) − C(K₂) + P(K₂)] / (K₂ − K₁)
-```
+
 
 The risk-free rate follows as `r = −ln(D) / T`.
 
@@ -26,9 +22,9 @@ The risk-free rate follows as `r = −ln(D) / T`.
 
 With K_ATM = 330:
 
-```
+
 F(0,T) = K + [C − P] / D(0,T)
-```
+
 
 ### 3. Implied dividends
 
